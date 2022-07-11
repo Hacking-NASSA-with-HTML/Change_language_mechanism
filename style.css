@@ -1,0 +1,67 @@
+.language {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+#Russian,
+#Deutsch,
+#English {
+    font-family: "Roboto", sans-serif;
+    margin: 0 10px;
+    padding: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.rus--lang,
+.dtch--lang,
+.eng--lang {
+    background-color: yellow;
+    font-weight: 500;
+}
+
+.rus--lang:hover,
+.dtch--lang:hover,
+.eng--lang:hover {
+    background-color: #d47911;
+}
+
+.rus--lang:active,
+.dtch--lang:active,
+.eng--lang:active {
+    background-color: #f30b0b;
+    color: #080808;
+    font-weight: 700;
+}
+
+/* .rus--lang:focus {
+    color: #0bbdf3;
+} */
+
+.language a:focus {
+    color: #f30b0b;
+    background-color: #757ce4;
+    font-weight: 900;
+}
+
+/* .rus--lang:visited, .dtch--lang:visited, .eng--lang:visited {
+    color: #0bbdf3;
+} */
+
+.greeting {
+    margin-top: 5vh;
+    height: 200px;
+    width: auto;
+    background-color: #98d112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_mesage {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: #250daa;
+}
